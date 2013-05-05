@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 
+<<<<<<< HEAD
 group :development do
 	gem 'sqlite3', '1.3.5'
 
@@ -9,21 +10,39 @@ group :development do
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 
+=======
+# Bundle edge Rails instead:
+# gem 'rails', :git => 'git://github.com/rails/rails.git'
+
+gem 'sqlite3'
+>>>>>>> 623a57569f6289ea1946422c975eb31e1c22ee4c
 
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
+<<<<<<< HEAD
   gem 'sass-rails',   '~> 3.2.5'
   gem 'coffee-rails', '~> 3.2.2'
+=======
+  gem 'sass-rails',   '~> 3.2.3'
+  gem 'coffee-rails', '~> 3.2.1'
+>>>>>>> 623a57569f6289ea1946422c975eb31e1c22ee4c
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
+<<<<<<< HEAD
   gem 'uglifier', '>= 1.2.3'
 end
 
 gem 'jquery-rails', '2.0.2'
+=======
+  gem 'uglifier', '>= 1.0.3'
+end
+
+gem 'jquery-rails'
+>>>>>>> 623a57569f6289ea1946422c975eb31e1c22ee4c
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

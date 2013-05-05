@@ -20,4 +20,9 @@ doc/
 *~
 .project
 .DS_Store
+<<<<<<< HEAD
 .idea
+=======
+.idea
+
+>>>>>>> 623a57569f6289ea1946422c975eb31e1c22ee4c
